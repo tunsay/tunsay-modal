@@ -2,13 +2,25 @@ import React, { useState } from 'react'
 import { ModalComponent } from 'tunsay-modal'
 import 'tunsay-modal/dist/index.css'
 
+/**
+ * Main application component.
+ *
+ * @returns {JSX.Element} The JSX element representing the main application.
+ */
 const App = () => {
+  // State to manage the open/close state of the modal
   const [isModalOpen, setIsModalOpen] = useState(false)
 
+  /**
+   * Function to open the modal.
+   */
   const handleOpenModal = () => {
     setIsModalOpen(true)
   }
 
+  /**
+   * Function to close the modal.
+   */
   const handleCloseModal = () => {
     setIsModalOpen(false)
   }
