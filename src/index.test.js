@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { ModalComponent } from '.'
 
-describe('ExampleComponent', () => {
+describe('ModalComponent', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(ModalComponent).toBeTruthy()
   })
 })
