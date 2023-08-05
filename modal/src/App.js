@@ -1,5 +1,5 @@
+import { ModalComponent } from '@tunsay/tunsay-modal'
 import React, { useState } from 'react'
-import { ModalComponent } from 'tunsay-modal'
 import 'tunsay-modal/dist/index.css'
 
 /**
